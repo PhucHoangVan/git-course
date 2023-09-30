@@ -46,3 +46,5 @@
  * 
  * 
  */
+
+// check view commit has not been push to remote
