@@ -51,7 +51,10 @@
 /** GIT LOG
  * - after run script git log, we can navigate with keyboard to find commit in git log:
  *  - example keyboard: return, w, spacebar, q, ?pattern, /pattern, n, N
- * - git log --oneline origin/<remote-branch-name>..HEAD: xem các commit chưa được push 
+ * - git log --oneline <branch-name>..HEAD: (compare commit) - Xem các commit exists trên branch hiện tại nhưng chưa có trên <branch-name>. 
+ * -> Lưu ý là: branch có thêm tiền tố "origin/" là các branch trên remote repository 
+ * - git log --oneline origin/<remote-branch-name>..HEAD: (thường sử dụng trong trường hợp xem các commit chưa được push) 
+ * 
  * - git log --stat: xem lịch sử commit cùng số dòng insert/delete
  */
 
