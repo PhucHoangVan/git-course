@@ -35,6 +35,13 @@
  */
 
 
+/** GIT LOG
+ * - after run script git log, we can navigate with keyboard to find commit in git log:
+ *  - example keyboard: return, w, spacebar, q, ?pattern, /pattern, n, N
+ * 
+ */
+
+
 /** 3 - GIT CHERRY-PICK
  * 
  * 
