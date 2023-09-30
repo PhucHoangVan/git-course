@@ -17,6 +17,11 @@
  * 
  */
 
+/** - GIT REVERT
+ * 
+ */
+
+
 /** - GIT RESTORE           
  * - git restore
  * - git restore --staged (đã sử dụng khi loại bỏ conflig chưa được merge)
@@ -74,7 +79,8 @@
  */
 
 /** GIT DIFF
- * - git diff: Xem các thay đổi giữa untracked và trong index staged(tracked)
+ * - git diff: Xem các thay đổi giữa working-tree và trong index staged(tracked)
+ * -> các file phải được add vào git thì khi modified mới được git diff compare (trường hợp file vừa được tạo<untracked-file> or file in git.ignore sẽ không được git diff compare)
  * - git diff --staged: Xem các thay đổi giữa tracked và root commit (phiên bản last commit trước đó)
  */  
 
@@ -84,11 +90,6 @@
  * 
  */
 
-
-/** GIT DIFF
- * - git diff: Xem các thay đổi giữa untracked và trong index staged(tracked) 
- * - git diff --staged: Xem các thay đổi giữa tracked và root commit (phiên bản last commit trước đó)
- */
 
 
 /** - GIT MERGE
