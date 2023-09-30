@@ -38,7 +38,8 @@
 /** GIT LOG
  * - after run script git log, we can navigate with keyboard to find commit in git log:
  *  - example keyboard: return, w, spacebar, q, ?pattern, /pattern, n, N
- * 
+ * - git log --oneline origin/<remote-branch-name>..HEAD: xem các commit chưa được push 
+ * - git log --stat: xem lịch sử commit cùng số dòng insert/delete
  */
 
 /** GIT DIFF
@@ -54,5 +55,12 @@
  * 
  */
 
+
+/** GIT DIFF
+ * - git diff: Xem các thay đổi giữa untracked và trong index staged(tracked) 
+ * - git diff --staged: Xem các thay đổi giữa tracked và root commit (phiên bản last commit trước đó)
+ */
+
+// check view commit has not been push to remote
 // check view commit has not been push to remote
 // check view commit has not been push to remote
