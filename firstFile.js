@@ -41,6 +41,13 @@
  * 
  */
 
+/** GIT DIFF
+ * - git diff:
+ * - git diff --staged
+ * - git diff: Xem các thay đổi giữa untracked và trong index staged(tracked)
+ * - git diff --staged: Xem các thay đổi giữa tracked và root commit (phiên bản last commit trước đó)
+ */  
+
 
 /** 3 - GIT CHERRY-PICK
  * 
