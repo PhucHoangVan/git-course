@@ -40,6 +40,7 @@
  * - git stash list | grep <branch-name>: hiển thị các stash được tạo từ "branch-name"
  * + Khi dùng git stash để lưu tạm các thay đổi, thì khi apply lại 1 phiên bản stash -> thì tất cả thay đổi được phục hồi lại sẽ được đưa về vùng untracked
  * + Ngoài ra, còn lệnh git stash save -u (theo lý thuyết: mục đích là để save các file bao gồm "tracked" và "untracked" vào stash, nếu không có "-u" thì chỉ những file "tracked" hay "đã được git add" mới được save vào stash. Tuy nhiên theo thử nghiệm thì không dùng "-u" thì cả "untracked" và "tracked" đều được save và khi phục hồi sẽ phục hồi lại trong vùng "untracked")
+ * + -> giải thích: "-u" ở đây có nghĩa là untracked-file(có tác dụng trong trường hợp các file không điợc theo dõi bởi git, thường là các file bị loại bỏ bởi .git-ignore)
  * Q/A:
  * - lệnh git stash list sẽ hiển thị tất cả các stash trên toàn bộ repo hay trên branch hiện tại?
  * -> Nếu không chỉ định branch thì sẽ lấy stash trên toàn bộ repo
